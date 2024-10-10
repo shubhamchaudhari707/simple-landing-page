@@ -1,15 +1,16 @@
 import React from 'react';
-import { Box, Flex, Heading, Text, SimpleGrid, Button } from '@chakra-ui/react';
-import { Product, products, cardData } from '../../lib/dummy';
+import { Box, Heading, Text, SimpleGrid, Button } from '@chakra-ui/react';
+import { cardData } from '../../lib/dummy';
 
 const ProductList: React.FC = () => {
-
-  // const data: Product[] = products;
 
   return (
 
 
-    <Box p={5}>
+    <Box p={5} borderTop={"2px solid black"} >
+      <Heading as="h2" size="xl" mb={6} textAlign="center" color="green">
+        Products
+      </Heading>
       <SimpleGrid columns={{ sm: 1, md: 2, lg: 4 }} spacing={10}>
         {cardData.map((card) => (
           <Box
@@ -35,9 +36,6 @@ const ProductList: React.FC = () => {
         ))}
       </SimpleGrid>
     </Box>
-
-
-
 
   );
 };

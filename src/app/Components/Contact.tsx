@@ -7,7 +7,7 @@ const Contact = () => {
         <>
 
 
-            <Box display="flex" alignItems="center" justifyContent="center" height="100vh" bg="#F6F5F2">
+            <Box display="flex" alignItems="center" justifyContent="center" height="100vh" bg="255, 255, 255" borderTop={"2px solid black"}>
                 <Box className="contact-container" style={{
                     backgroundColor: "white",
                     padding: "40px",

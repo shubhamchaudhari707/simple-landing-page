@@ -57,6 +57,7 @@ const Footer = () => {
                 <Text fontSize="sm" color="gray.500" mt={4}>
                     &copy; {new Date().getFullYear()} nCompass Technologies. All rights reserved.
                 </Text>
+                {/* <h1>skjd</h1> */}
             </Flex>
         </Box>
     );
