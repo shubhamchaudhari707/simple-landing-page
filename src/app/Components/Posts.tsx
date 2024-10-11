@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from 'react';
 import { Box, Heading, Text, Flex, Spinner, FormControl, FormLabel, Input, Textarea, Button, Table, Thead, Tbody, Tr, Th, Td } from '@chakra-ui/react';
-import { PostsData, fetchPost } from '../api/route';
+import { PostsData, fetchPost } from '../api/routes';
 import { Post } from '../api/types';
 import LoadingSpinner from './Loader';
 

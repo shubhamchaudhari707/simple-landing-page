@@ -4,7 +4,7 @@
 import { useEffect, useState } from 'react';
 import { Box, Heading, Text, Flex, Spinner } from '@chakra-ui/react';
 import { User } from '../api/types';
-import { fetchUsers } from '../api/route';
+import { fetchUsers } from '../api/routes';
 import LoadingSpinner from './Loader';
 
 const HappyClients = () => {
